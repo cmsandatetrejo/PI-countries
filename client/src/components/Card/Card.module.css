@@ -1,0 +1,32 @@
+.container {
+  justify-content: center; /* Centra horizontalmente */      
+  align-items: center; /* Centra verticalmente */ 
+  flex-wrap: wrap; /* Envuelve los elementos en varias filas si es necesario */
+
+  background-color: #8acfca;
+    border-radius: 30%;
+    padding: 8px; /* Reducir el espacio de relleno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .name {
+    font-size: 16px; /* Reducir el tamaño de fuente */
+    font-weight: bold;
+    margin-bottom: 4px; /* Reducir el margen inferior */
+  }
+  
+  .continents {
+    font-size: 14px; /* Reducir el tamaño de fuente */
+    margin-bottom: 4px; /* Reducir el margen inferior */
+  }
+  
+  .population {
+    font-size: 14px; /* Reducir el tamaño de fuente */
+    margin-bottom: 4px; /* Reducir el margen inferior */
+  }
+  
+  .image {
+    width: 20%;
+    height: auto;
+    border-radius: 4px;
+  }

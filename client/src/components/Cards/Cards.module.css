@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Si hay más de una Card, se envolverán en varias filas */
+    text-align: center;
+  }
+  
+  .card {
+    width: 50%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    
+  }
